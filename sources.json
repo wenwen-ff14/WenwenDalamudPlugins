@@ -1,7 +1,27 @@
 [
-  {"internalName":"dsrsim-tc","url":"https://raw.githubusercontent.com/wenwen-ff14/dsrsim-tc/main/pluginmaster.json"},
-  {"internalName":"CrescentCompass","url":"https://raw.githubusercontent.com/wenwen-ff14/Occult_Crescent_guide_TC/main/pluginmaster.json"},
-  {"internalName":"TreasureKeeper","url":"https://raw.githubusercontent.com/wenwen-ff14/TreasureKeeper/main/pluginmaster.json"},
-  {"internalName":"TreasureKeeperGlobal","url":"https://raw.githubusercontent.com/wenwen-ff14/TreasureKeeperGlobal/main/pluginmaster.json"},
-  {"internalName":"Penumbra","minimumVersion":"1.5.1.29","url":"https://raw.githubusercontent.com/wenwen-ff14/Penumbra-TW/main/repo.json"}
+  {
+    "internalName": "dsrsim-tc",
+    "url": "https://raw.githubusercontent.com/wenwen-ff14/dsrsim-tc/main/pluginmaster.json"
+  },
+  {
+    "internalName": "CrescentCompass",
+    "url": "https://raw.githubusercontent.com/wenwen-ff14/Occult_Crescent_guide_TC/main/pluginmaster.json"
+  },
+  {
+    "internalName": "TreasureKeeper",
+    "url": "https://raw.githubusercontent.com/wenwen-ff14/TreasureKeeper/main/pluginmaster.json"
+  },
+  {
+    "internalName": "TreasureKeeperGlobal",
+    "url": "https://raw.githubusercontent.com/wenwen-ff14/TreasureKeeperGlobal/main/pluginmaster.json"
+  },
+  {
+    "internalName": "Penumbra",
+    "minimumVersion": "1.5.1.29",
+    "url": "https://raw.githubusercontent.com/wenwen-ff14/Penumbra-TW/main/repo.json"
+  },
+  {
+    "internalName": "MapPartyAssist",
+    "url": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/pluginmaster.json"
+  }
 ]

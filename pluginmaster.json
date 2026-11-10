@@ -68,6 +68,35 @@
     "Changelog": "修正 P3 最後四塔位置；P5 死刻支援 D3/D4 職業原版 LB2 與讀條、調整非死宣走位及中央騎士登場；P6 修正冰火2站位、冰結移動鎖定，加入兩次坦克死刑多種組合。"
   },
   {
+    "Author": "SaMo",
+    "Name": "Map Party Assist｜藏寶隊伍助手（繁中預覽）",
+    "InternalName": "MapPartyAssist",
+    "AssemblyVersion": "2.5.1.3",
+    "Description": "繁體中文介面預覽版，Dalamud API 13。主要追蹤介面、設定與部分篩選器已翻譯。繁中系統訊息自動辨識尚未完成，部分統計畫面仍為英文；尚未完成遊戲內載入與功能驗證。輸入 /mparty 開啟。",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/wenwen-ff14/MapPartyAssist-TW",
+    "Tags": [
+      "treasure maps",
+      "maps",
+      "achievements",
+      "statistics",
+      "items",
+      "plugin"
+    ],
+    "DalamudApiLevel": 13,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/wrath16/MapPartyAssist/master/images/icon.png",
+    "Punchline": "藏寶圖追蹤與統計，繁中介面預覽版。",
+    "Changelog": "2.5.1.3：修正中文角色名稱造成隊伍成員解析陣列越界；處理登入時角色資料尚未就緒，並支援中文角色別名比對。",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.3.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.3.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.3.zip"
+  },
+  {
     "Author": "Ottermandias, Nylfae, Adam, Wintermute",
     "Name": "Penumbra",
     "Punchline": "台服 API 13 模組載入與管理工具",

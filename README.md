@@ -16,6 +16,7 @@ https://raw.githubusercontent.com/wenwen-ff14/WenwenDalamudPlugins/main/pluginma
 | CrescentCompass | [Occult_Crescent_guide_TC](https://github.com/wenwen-ff14/Occult_Crescent_guide_TC) | 13 |
 | TreasureKeeper | [TreasureKeeper](https://github.com/wenwen-ff14/TreasureKeeper) | 13 |
 | TreasureKeeperGlobal | [TreasureKeeperGlobal](https://github.com/wenwen-ff14/TreasureKeeperGlobal) | 15 |
+| MapPartyAssist（繁中預覽） | [MapPartyAssist-TW](https://github.com/wenwen-ff14/MapPartyAssist-TW) | 13 |
 | Penumbra | [Penumbra-TW](https://github.com/wenwen-ff14/Penumbra-TW) | 13 |
 
 合併清單不改變插件的客戶端／API 相容性，台服 API 13 不適用 API 15 的 TreasureKeeperGlobal。實際版本與 API 以 pluginmaster.json 為準。
@@ -24,7 +25,7 @@ https://raw.githubusercontent.com/wenwen-ff14/WenwenDalamudPlugins/main/pluginma
 
 1. 先由原 Penumbra 插件庫更新到 1.5.1.29 或以上，該版本接受本統一網址。
 2. 若使用開發版，先停用並移除其開發 DLL 路徑，再使用插件庫版。
-3. 加入統一網址，停用或移除上述五個專案的舊插件庫網址，儲存並重新整理插件列表。
+3. 加入統一網址，停用或移除上述專案的舊插件庫網址，儲存並重新整理插件列表。
 4. 若既有插件仍綁定舊來源而無法更新，使用插件安裝器從新來源重新安裝；先備份設定，勿選刪除設定。遇到來源警告可先保留原庫更新 Penumbra，再遷移。
 
 ## 自動同步
@@ -41,3 +42,4 @@ sources.json 是明確收錄清單；未來新增專案須在此登記，不會�
 node --test scripts/sync.test.mjs
 node scripts/sync.mjs
 ```
+

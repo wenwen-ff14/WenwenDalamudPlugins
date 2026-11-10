@@ -71,8 +71,8 @@
     "Author": "SaMo",
     "Name": "Map Party Assist｜藏寶隊伍助手（繁中預覽）",
     "InternalName": "MapPartyAssist",
-    "AssemblyVersion": "2.5.1.3",
-    "Description": "繁體中文介面預覽版，Dalamud API 13。主要追蹤介面、設定與部分篩選器已翻譯。繁中系統訊息自動辨識尚未完成，部分統計畫面仍為英文；尚未完成遊戲內載入與功能驗證。輸入 /mparty 開啟。",
+    "AssemblyVersion": "2.5.1.4",
+    "Description": "繁中介面預覽版，Dalamud API 13。支援開門型寶物庫的繁中進度與結束記錄；召喚型進度及完整戰利品辨識尚未適配。部分畫面仍為英文，新增判定待遊戲內驗證。輸入 /mparty 開啟。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/wenwen-ff14/MapPartyAssist-TW",
     "Tags": [
@@ -90,11 +90,11 @@
     "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/wrath16/MapPartyAssist/master/images/icon.png",
     "Punchline": "藏寶圖追蹤與統計，繁中介面預覽版。",
-    "Changelog": "2.5.1.3：修正中文角色名稱造成隊伍成員解析陣列越界；處理登入時角色資料尚未就緒，並支援中文角色別名比對。",
+    "Changelog": "2.5.1.4：依繁中遊戲資料補上開門型寶物庫清怪、開門與強制退出訊息，沿用原版檢查點順序記錄結束層數；離開副本保存已觀察進度。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.3.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.3.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.3.zip"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.4.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.4.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.4.zip"
   },
   {
     "Author": "Ottermandias, Nylfae, Adam, Wintermute",

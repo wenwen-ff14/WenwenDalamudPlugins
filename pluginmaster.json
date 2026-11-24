@@ -71,8 +71,8 @@
     "Author": "SaMo",
     "Name": "Map Party Assist｜藏寶隊伍助手（繁中預覽）",
     "InternalName": "MapPartyAssist",
-    "AssemblyVersion": "2.5.1.7",
-    "Description": "繁中介面預覽版，Dalamud API 13。依本機繁中遊戲資料匹配開門型／轉盤型進度、洞外挖掘、開箱及傳送門訊息，支援基本金幣與物品記錄。部分介面仍為英文；新增判定需遊戲內驗證。輸入 /mparty 開啟。",
+    "AssemblyVersion": "2.5.1.8",
+    "Description": "繁中介面預覽版，Dalamud API 13。支援選門、轉盤及 G18 尋夢金庫的繁中進度訊息，以及洞外藏寶圖、傳送門、基本金幣與物品記錄。新增 G18 判定已通過訊息回放測試，待遊戲內驗證。輸入 /mparty 開啟。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/wenwen-ff14/MapPartyAssist-TW",
     "Tags": [
@@ -90,11 +90,11 @@
     "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/wrath16/MapPartyAssist/master/images/icon.png",
     "Punchline": "藏寶圖追蹤與統計，繁中介面預覽版。",
-    "Changelog": "2.5.1.7：修正完成事件建立的最後檢查點缺少戰利品清單，導致通關 Gil 只計入總額而未列入戰利品明細；兼容舊空清單。",
+    "Changelog": "2.5.1.8：支援 G18 尋夢金庫繁中拉霸進度、驚奇夢想、通關與強制退出判定；核對正式地圖及副本名稱。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.7.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.7.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.7.zip"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.8.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.8.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/wenwen-ff14/MapPartyAssist-TW/main/packages/MapPartyAssist/2.5.1.8.zip"
   },
   {
     "Author": "Ottermandias, Nylfae, Adam, Wintermute",
